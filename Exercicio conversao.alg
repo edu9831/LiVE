@@ -33,7 +33,7 @@ repita
    fimse
 ate opcao="3"
 escreval("suas conversoes foram", valor1, "horas em ", resposta1, "segundos e ", valor2," litros em", resposta2,"metros cubicos")
-escreval("isso e tudo pessoal")
+escreval("isso e tudo pessoal, sejam felizes")
 
 
 
