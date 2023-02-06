@@ -1,8 +1,8 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o :
 // Autor :
 // Data : 2/1/2023
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
 opcao:literal
 valor1, resposta1, valor2, resposta2: real
@@ -12,14 +12,14 @@ valor2<-0
 resposta1<-0
 resposta2<-0
 repita
-   escreval("digite1 para converter km em metros")
+   escreval("digite1 para converter horas em segundos")
    escreval("digite2 para converter litros em metros cubicos")
    escreval("digite3 para sair")
    leia (opcao)
    se opcao="1" entao
-      escreval("digite o valor dos km para converter em metros")
+      escreval("digite o valor dos horas para converter em segundos")
       leia(valor1)
-      resposta1<-valor1*1000
+      resposta1<-valor1*3600
       escreval(valor1,"km equivale a",resposta1,"metros")
       escreval()
    senao
@@ -32,7 +32,7 @@ repita
       fimse
    fimse
 ate opcao="3"
-escreval("suas conversoes foram", valor1, "km em ", resposta1, "metros e ", valor2," litros em", resposta2,"metros cubicos")
+escreval("suas conversoes foram", valor1, "horas em ", resposta1, "segundos e ", valor2," litros em", resposta2,"metros cubicos")
 escreval("isso e tudo pessoal")
 
 
